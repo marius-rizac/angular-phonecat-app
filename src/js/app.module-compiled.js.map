@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.module.js"],"names":[],"mappings":";AACA;;AAEA,QAAQ,MAAR,CAAe,aAAf,EAA8B,CAC1B,WAD0B,EAE1B,SAF0B,EAG1B,MAH0B,EAI1B,aAJ0B,EAK1B,WAL0B,CAA9B","file":"app.module-compiled.js","sourcesContent":["// app.module.js\n'use strict';\n\nangular.module('phonecatApp', [\n    'ngAnimate',\n    'ngRoute',\n    'core',\n    'phoneDetail',\n    'phoneList'\n]);\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["phone-list.module.js"],"names":[],"mappings":";AACA;;AAEA,QAAQ,MAAR,CAAe,WAAf,EAA4B,CAAC,YAAD,CAA5B","file":"phone-list.module-compiled.js","sourcesContent":["// phone-list.module.js\n'use strict';\n\nangular.module('phoneList', ['core.phone']);"]}

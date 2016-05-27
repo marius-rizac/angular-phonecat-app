@@ -1,0 +1,1 @@
+{"version":3,"sources":["phone-detail.module.js"],"names":[],"mappings":"AAAA,QAAQ,MAAR,CAAe,aAAf,EAA8B,CAAC,YAAD,CAA9B","file":"phone-detail.module-compiled.js","sourcesContent":["angular.module('phoneDetail', ['core.phone']);\n"]}

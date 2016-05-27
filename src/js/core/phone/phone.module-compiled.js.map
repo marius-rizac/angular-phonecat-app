@@ -1,0 +1,1 @@
+{"version":3,"sources":["phone.module.js"],"names":[],"mappings":"AAAA,QAAQ,MAAR,CAAe,YAAf,EAA6B,CACzB,YADyB,CAA7B","file":"phone.module-compiled.js","sourcesContent":["angular.module('core.phone', [\n    'ngResource'\n]);\n"]}
