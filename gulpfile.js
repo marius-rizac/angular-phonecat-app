@@ -39,7 +39,7 @@ var sources = {
 gulp.task('js-external', function(){
     gulp.src(sources.js.external)
         .pipe(concat('external.js'))
-        .pipe(gulp.dest('app/dist/js'))
+        .pipe(gulp.dest('public/dist/js'))
     ;
 });
 
@@ -47,14 +47,14 @@ gulp.task('js', function(){
     gulp.src(sources.js.internal)
         .pipe(plumber())
         .pipe(concat('bundle.js'))
-        .pipe(gulp.dest('app/dist/js'))
+        .pipe(gulp.dest('public/dist/js'))
     ;
 });
 
 gulp.task('css', function(){
     gulp.src(sources.css)
         .pipe(concat('bundle.css'))
-        .pipe(gulp.dest('app/dist/css'))
+        .pipe(gulp.dest('public/dist/css'))
     ;
 });
 
